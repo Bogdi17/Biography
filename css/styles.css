@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:linear-gradient(green ,rgba(250, 152, 5, 0.413));
+}
+
+.main-div{
+    background-color: rgb(96, 206, 228);
+    width:735px;
+    height:600px;
+    border-radius:25px 25px 10px 10px ;
+}
+
+.div{
+    display:flex;
+    flex-direction: row;
+    transform:translateY(-45px);
+    height:175px;
+}
+
+.biography2{
+    width:350px;
+    border:2px dotted red;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    border-radius: 10px;
+    margin-right:25px;
+    margin-left: 5px;
+}
+
+.biography{
+    width:350px;
+    border:2px dotted rgb(34, 146, 34);
+    display:flex;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    border-radius: 10px;
+}
+
+figcaption{
+    display:block;
+    width:170px;
+    margin-bottom: 1rem;;
+    background-color: firebrick;
+    border-radius: 0 8px 8px 0;
+    font-size:1.5rem;
+    font-weight:600;
+    transform:translateY(-400px)
+}
+
+.span{
+    white-space:nowrap;
+}
+
+.span2{
+    white-space: nowrap;
+}
+
+img{
+    border:5px solid #5d5d5d;
+    border-radius: 25px;
+}
+
+div{
+    
+    height:150px
+}
+
+h1{
+    margin-left: 20px;
+}
+
